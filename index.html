@@ -224,39 +224,9 @@
     <!-- Jobs Section -->
         <div class="w3-container" style="padding:16px" id="jobs">
             <h3 class="w3-center w3-color w3-orange">Jobs</h3>
-            <p class="w3-center"> Info about Web Deisgn jobs</p>
-
-
-            <p>More info about jobs</p>
-
-            <p>Even more info about jobs</p>
-
-<div class="w3-row-padding">
-  <div class="w3-container w3-third">
-    <img src="img/" style="width:100%" onclick="onClick(this)">
-  </div>
-  <div class="w3-container w3-third">
-    <img src="img/" style="width:100%" onclick="onClick(this)">
-  </div>
-  <div class="w3-container w3-third">
-    <img src="img/" style="width:100%" onclick="onClick(this)">
-  </div>
-</div>
-
-<div id="modal01" class="w3-modal" onclick="this.style.display='none'">
-  <img class="w3-modal-content" id="img01" style="width:100%">
-</div>
-
-<script>
-function onClick(element) {
-  document.getElementById("img01").src = element.src;
-  document.getElementById("modal01").style.display = "block";
-}
-</script>
-
-                   
+       
     <!-- Most Common Jobs Section -->
-                    <div class="w3-container w3-light-grey w3-padding-64">
+                    <div class="w3-container w3-light-grey w3-padding-32">
                         <div class="w3-row-padding">
                             
                             <div class="w3-col m6 w3-color w3-orange">
@@ -267,15 +237,15 @@ function onClick(element) {
                                 </p>
                             </div>
                             <div class="w3-col m6">
-                                <p class="w3-wide"><i class="fa fa-id-card w3-margin-right"></i>Designers</p>
+                                <p class="w3-wide"><i class="fas fa-keyboard w3-margin-right"></i>Back-End Developer</p>
+                                <div class="w3-grey">
+                                    <div class="w3-container w3-orange w3-center" style="width:20%">20%</div>
+                                </div>
+                                <p class="w3-wide"><i class="fas fa-paint-brush  w3-margin-right"></i>Front-End Developer/ Designer</p>
                                 <div class="w3-grey">
                                     <div class="w3-container w3-orange w3-center" style="width:30%">30%</div>
                                 </div>
-                                <p class="w3-wide"><i class="fa fa-bank w3-margin-right"></i>Programmers</p>
-                                <div class="w3-grey">
-                                    <div class="w3-container w3-orange w3-center" style="width:25%">25%</div>
-                                </div>
-                                <p class="w3-wide"><i class="fa fa-laptop w3-margin-right"></i>Specialists</p>
+                                <p class="w3-wide"><i class="fa fa-laptop w3-margin-right"></i>Project Manager</p>
                                 <div class="w3-grey">
                                     <div class="w3-container w3-orange w3-center" style="width:15%">15%</div>
                                 </div>
@@ -284,13 +254,13 @@ function onClick(element) {
                     </div>
 
                     <!-- Salary Section -->
-                    <div class="w3-container w3-center w3-dark-grey" style="padding:128px 16px" id="salary">
+                    <div class="w3-container w3-center w3-dark-grey" style="padding:32px 16px" id="salary">
                         <h3>Salary</h3>
-                        <p class="w3-large">Choose a pricing plan that fits your needs.</p>
+                        <p class="w3-large">Choose a job that fits your needs.</p>
                         <div class="w3-row-padding" style="margin-top:64px">
                             <div class="w3-third w3-section">
                                 <ul class="w3-ul w3-white w3-hover-shadow">
-                                    <li class="w3-light-grey w3-xlarge w3-padding-32">Programmer</li>
+                                    <li class="w3-light-grey w3-xlarge w3-padding-32">Back-End Developer</li>
                                     <li class="w3-padding-16"><b>$40,000/yr</b> Low-end</li>
                                     <li class="w3-padding-16"><b>$60,000/yr</b> Mid-level</li>
                                     <li class="w3-padding-16"><b>$100,000/yr</b> High-end</li>
@@ -306,7 +276,7 @@ function onClick(element) {
                             </div>
                             <div class="w3-third">
                                 <ul class="w3-ul w3-white w3-hover-shadow">
-                                    <li class="w3-orange w3-xlarge w3-padding-48">Designer</li>
+                                    <li class="w3-orange w3-xlarge w3-padding-48">Front-End Developer/Designer</li>
                                     <li class="w3-padding-16"><b>$40,000/yr</b> Low-end</li>
                                     <li class="w3-padding-16"><b>$60,000/yr</b> Mid-level</li>
                                     <li class="w3-padding-16"><b>$100,000/yr</b> High-end</li>
@@ -322,7 +292,7 @@ function onClick(element) {
                             </div>
                             <div class="w3-third w3-section">
                               <ul class="w3-ul w3-white w3-hover-shadow">
-                                  <li class="w3-light-grey w3-xlarge w3-padding-32">Programmer</li>
+                                  <li class="w3-light-grey w3-xlarge w3-padding-32">Project Manager</li>
                                   <li class="w3-padding-16"><b>$40,000/yr</b> Low-end</li>
                                   <li class="w3-padding-16"><b>$60,000/yr</b> Mid-level</li>
                                   <li class="w3-padding-16"><b>$100,000/yr</b> High-end</li>
@@ -337,22 +307,62 @@ function onClick(element) {
                               </ul>
                           </div>
 
-                          
+                          <!-- Education Section -->
+                        <div class="w3-container w3-white" style="padding:128px 16px" id="education">
+                            <h3 class="w3-center">Education</h3>
+                            <p class="w3-center w3-large">What education is required to become a web designer?</p>
+                            <div style="margin: top 10px">
+                                <div class="w3-container" style="padding:18px 10px" id="home">
+                
+                                    <div class="w3-row-padding w3-center" style="margin: top 10px;">
+                                        <div class="w3-quarter" style="border-style: solid;
+                                        border-color: orange; padding-top: 10px;">
+                                        <i class="fas fa-desktop w3-margin-bottom w3-jumbo w3-center"></i>
+                                            <p class="w3-large w3-text-orange">Associates</p>
+                                            <p>This is a 2-year degree and it good for starting out and is the fastest track to the work force. However, in most cases it will not allow you to make competative wages. </p>
+                                        </div>
+                                        <div class="w3-quarter" style="border-style: solid;
+                                        border-color: orange; padding-top: 10px;">
+                                            <i class="fas fa-school w3-margin-bottom w3-jumbo w3-center"></i>
+                                            <p class="w3-large w3-text-orange">Bachelor</p>
+                                            <p> This is the most common degree held by web designers as it allows you to earn competative wages and be competative in the job market. 
+                                            </p>
+                                        </div>
+                                        <div class="w3-quarter" style="border-style: solid;
+                                        border-color: orange; padding-top: 10px;">
+                                            <i class="fas fa-university w3-margin-bottom w3-jumbo"></i>
+                                            <p class="w3-large w3-text-orange">Masters</p>
+                                            <p> This degree will allow you to make high-end wages.
+                                            </p>
+                                        </div>
+                                        <div class="w3-quarter" style="border-style: solid;
+                                        border-color: orange; padding-top: 10px;">
+                                            <i class="fas fa-user-graduate w3-margin-bottom w3-jumbo"></i>
+                                            <p class="w3-large w3-text-orange">PhD</p>
+                                            <p> Most people who hold a PhD in Web Design become proffessors in the field and also get to pursue their passion for Web Design part time. On average, they make the highest salaries. As the industry is rapidly growing, there is a bigger and bigger demand for professors in this field</p>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                               
 
                     <!-- Questions Section -->
                     <div class="w3-container w3-white" style="padding:12px 12px" id="questions">
-
+ <p class="w3-center w3-xlarge">Questions</p>
+                        <p class="w3-center w3-large">If you have any further questions about the web design industry, please ask us</p>
+                            
+                          
                         <br>
                         <form action="/action_page.php" target="_blank">
                             <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></p>
                             <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
                             <input class="w3-input w3-border" type="text" placeholder="Plan" required name="Message">
                             <p><input class="w3-input w3-border" type="text" placeholder="something" required name="something"></p>
-                            <button class="w3-button " type="submit">
-                                <i class="fa fa"></i> Questions
-                            </button>
-                            <p class="w3-center w3-large">If you have any further questions about the web design industry, please ask us</p>
-                            <p class="w3-center w3-xlarge">something</p>
+                          <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right w3-text-orange"></i> Andover, MA, US</p>
+                                <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right w3-text-orange"></i> Phone: 999-999-9999</p>
+                                <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right w3-text-orange"> </i> Email: @gmail.com</p>
+                                <br>    
+                            
                             <button class="" type="submit">
                                 <i class="fa fa-cc-amex "></i>
                             </button>
@@ -363,32 +373,11 @@ function onClick(element) {
                                 <i class="fa fa-cc-mastercard"></i> 
                             </button>
 
-                        </form>
+                        
                         <button class="w3-center" type="submit">
                             <i class="fa fa-cc-visa"></i> 
-                        </button>
+                        </button></form>
 
-
-                        <!-- Education Section -->
-                        <div class="w3-container w3-white" style="padding:128px 16px" id="education">
-                            <h3 class="w3-center">Education</h3>
-                            <p class="w3-center w3-large">What education is required to become a web designer?</p>
-                            <div style="margin-top:48px">
-                                <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right w3-text-orange"></i> Andover, MA, US</p>
-                                <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right w3-text-orange"></i> Phone: 999-999-9999</p>
-                                <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right w3-text-orange"> </i> Email: @gmail.com</p>
-                                <br>
-                                <form action="/action_page.php" target="_blank">
-                                    <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></p>
-                                    <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
-                                    <p><input class="w3-input w3-border" type="text" placeholder="Subject" required name="Subject"></p>
-                                    <p><input class="w3-input w3-border" type="text" placeholder="Message" required name="Message"></p>
-                                    <p>
-                                        <button class="w3-button " type="submit">
-                                            <i class="fa fa-paper-plane"></i> SEND
-                                        </button>
-                                    </p>
-                                </form>
 
                                 <!-- Image of location/map -->
                             
